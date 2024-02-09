@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: 'bikoblack';
+    src: url('../font/biko_black-webfont.woff2') format('woff2'),
+         url('../font/biko_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bikobold';
+    src: url('../font/biko_bold-webfont.woff2') format('woff2'),
+         url('../font/biko_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bikoregular';
+    src: url('../font/biko_regular-webfont.woff2') format('woff2'),
+         url('../font/biko_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header start here */
+.header{
+    background-image: url(../image/header\ Background.png);
+    background-size: cover;
+    background-color: #0864B1;
+}
+.header .icon{
+    display: none;
+}
+.navbar-brand{
+    font-size: 45px;
+}
+
+.header .navbar .navbar-brand {
+    font-family: 'bikobold';
+    font-size: 45px;
+    font-weight: normal;
+}
+.header .navbar .navigation-link .nav .nav-item .nav-link{
+    font-family: 'bikoregular';
+    font-weight: normal;
+    font-size: 30px;
+}
+.header .investment .information h1{
+    font-size: 85px;
+    font-family: 'bikoblack';
+    font-weight: normal;
+    font-size: 95px;
+}
+.header .investment .information p{
+    font-size: 24px;
+    font-family: 'bikoregular';
+    font-weight: normal;
+}
+/* header ends here */
+
+/* about_us section start here */
+.heading h3{
+    font-family: 'bikoblack';
+    font-weight: normal;
+    font-size: 50px;
+    color: #0864B1;
+}
+.heading::after{
+    content: '';
+    display: block;
+    background-color: #676767;
+    margin: auto;
+    width: 12%;
+    height: 5px;
+    margin-top: 5px;
+}
+.about_us .num_icon .icon{
+    position: relative;
+}
+.about_us .num_icon .icon::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: grey;
+    width: 2px;
+    height: 130px;
+    top: 0;
+    left: 1px;
+    transform: translateY(22px);
+}
+.about_us .num_icon .icon:first-child::after{
+    display: none;
+}
+.about_us{
+    padding-top: 109px;
+}
+.about_us .info_about{
+    justify-content: center;
+}
+.about_us .info_about p{
+    margin-top: 50px; 
+    font-family: 'bikoregular';
+    font-weight: normal;
+    font-size: 35px;
+    color: #676767;
+}
+.about_us .num_icon .icon p{
+    font-family: 'bikoregular';
+    font-size: 30px;
+    font-weight: normal;
+    color: #676767;
+}
+.about_us .num_icon .icon .text-primary{
+    font-size: 100px;
+}
+/* about_us section ends here */
+
+/* features section start here */
+.features{
+    background-color: #F5F5F5;
+}
+.features .features_img p{
+    font-family: 'bikoregular';
+    font-size: 35px;
+    font-weight: normal;
+    color: #676767;
+}
+/* features section ends here */
+
+/* slider section start here */
+.slider .swiper-slide{
+    box-shadow: 0px 0px 12px #0864B133;
+}
+.slider .swiper-pagination{
+    position: unset;
+}
+.slider .mySwiper{
+    width: 80%;
+    padding: 0 10px;
+}
+.slider .swiper-slide  .swiper_text p{
+    font-family: 'bikoregular';
+    font-size: 20px;
+    font-weight: normal;
+    color: #676767;
+}
+.slider .swiper-slide  .swiper_text a{
+    font-family: 'bikobold';
+    font-size: 20px;
+    font-weight: normal;
+}
+.swiper-pagination-bullet{
+    width: 60px;
+    height: 7px;
+    /* opacity: 1; */
+    border-radius: 0;
+    background-color: #0864B1;
+}
+
+/* slider ends here */
+
+/* Testimonials_slider start here */
+.Testimonials .swiper-slide{
+    padding: 0 200px;
+}
+.swiper-slide .Testimonials_info{
+    background-color: white;
+    padding: 26px;
+}
+.swiper-slide .Testimonials_info p{
+    color: #676767;
+    font-family: 'bikoregular';
+    font-size: 30px;
+    font-weight: normal;
+}
+.swiper-slide .Testimonials_info .text{
+    color: #676767;
+    font-family: 'bikobold';
+    font-size: 30px;
+    font-weight: normal;
+}
+.Testimonials_slider{
+    background-color: #F5F5F5;
+}
+.swiper-slide .read{
+    text-align: end;
+    text-decoration: none;
+    color: #0864B1;
+}
+.swiper-slide .read .fa-solid{
+    font-size: 12px;
+}
+.swiper-slide .fa-solid{
+    color:#0864B1 ;
+    font-size: 25px;
+}
+.swiper-slide .row{
+    padding: 15px;
+}
+.swiper-button-next i{
+    color: #67676726;
+    font-size: 50px;
+}
+.swiper-button-prev i{
+    color: #67676726;
+    font-size: 50px
+}
+.swiper-slide .Testimonials_info .text{
+    color:#0864B1 ;
+}
+.Testimonials .swiper-button-next:after{
+    display: none;
+}
+.Testimonials .swiper-button-prev:after{
+    display: none;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+/* Testimonials_slider ends here */
+
+/* newsletter start here */
+.newsletter .investment .newsletter_info .info .join{
+    font-family: 'bikobold';
+    font-weight: normal;
+    font-size: 75px;
+    /* display: flex;
+    justify-content: center; */
+}
+.newsletter .investment .newsletter_info .info .join_news{
+    display: flex;
+    justify-content: center;
+}
+.newsletter .investment .newsletter_info .info .text{
+    font-family: 'bikoregular';
+    font-weight: normal;
+    font-size: 30px;
+}
+.newsletter .investment .newsletter_info .info .join_news p{
+    font-size: 26px;
+    width: 40%;
+    font-family: 'bikobold';
+    font-weight: normal;
+    border: 5px solid #FFFFFF;
+    padding: 10px;
+    box-shadow: 3px 4px 8px #0864B11A;
+}
+/* form section start here */
+.form{
+    background-color: #F5F5F5;
+}
+.form .form-label{
+    font-family: 'bikobold';
+    font-weight: normal;
+    font-size: 25px;
+}
+.form .send_info {
+    font-family: 'bikobold';
+    font-weight: normal;
+    font-size: 20px;
+}
+.form .send_info p{
+    color: #0864B1;
+}
+.form-control{
+    box-shadow: 2px 2px 6px #0864B133;
+    border-radius: 0;
+    resize: none;
+}
+.form .send_info .btn{
+    border-radius: 0;
+    background-color: #0864B1;
+    color: white;
+}
+/* form section ends here */
+
+/* footer section start here */
+.footer .footer_data .bluetrading_logo .logo{
+    text-decoration: none;
+    font-family: 'bikobold';
+    font-size: 45px;
+    font-weight: normal;
+}
+.footer .footer_data .contact_info p{
+    font-family: 'bikoregular';
+    font-size: 18px;
+    font-weight: normal;
+}
+.footer .footer_data .contact_info p a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer_data .footer_info{
+    font-family: 'bikobold';
+    font-size: 25px;
+    font-weight: normal;
+}
+.footer .footer_data .connection h5{
+    font-family: 'bikobold';
+    font-size: 30px;
+    font-weight: normal;
+}
+.footer .footer_data .connection .text {
+    font-family: 'bikobold';
+    font-size: 25px;
+    font-weight: normal;
+}
+.footer .footer_data .connection p{
+    font-family: 'bikoregular';
+    font-size: 22px;
+    font-weight: normal;
+}
+.update{
+    background-color: #0864B1;
+}
+.icons a i{
+    color: #0864B1;
+}
+.footer{
+    background-color: #0864B1;
+}
+.footer .footer_data .connection a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:767px) {
+    /* header start here */
+    .header{
+        position: relative;
+    }
+    .header .navbar .navigation-link .icon{
+        height: 30px;
+        width: 30px;
+        background-color: black;
+        position: absolute;
+        right: 21px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        top: 36px;
+    }
+    .header .navbar .navigation-link .icon i{
+        position: relative;
+        right: -8px;
+        top: 1px;
+    }
+    .header .nav{
+        display: none;
+    }
+    .header .nav .nav-item{ 
+        display: block;
+        top: 10px;
+    } 
+    .navbar{
+        position: relative;
+    }
+    .nav{
+        display: block;
+        position: absolute;
+        right: 16px;
+        top: 75px;
+        background-color: black;
+    }
+    .header .navbar .navbar-brand {
+        font-family: 'bikobold';
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .header .investment .information h1{
+        font-size: 40px;
+        font-family: 'bikoblack';
+        font-weight: normal;
+        padding-top: 20px;
+        padding-top: 85px;
+    }
+    .header .investment .information p{
+        font-size: 14px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+    }
+    .header .navbar .navigation-link .nav .nav-item {
+        width: 100%;
+    }
+    .header .navbar .navigation-link .nav .nav-item .nav-link{
+        font-size: 10px;
+    }
+    /* header ends here */
+
+    /* about_us start here */
+    .heading h3{
+        font-family: 'bikoblack';
+        font-weight: normal;
+        font-size: 27px;
+        color: #0864B1;
+    }
+    .about_us .info_about p{
+        font-size: 15px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    .about_us .num_icon .icon .text-primary{
+        font-size: 40px;
+    }
+    .about_us .num_icon .icon p{
+        font-size: 25px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    /* about_us section ends here */
+
+    /* features section start here */
+    .about_us .num_icon .icon::after{
+        display: none;
+    }
+    .features .features_img .images{
+        padding-bottom: 15px;
+    }
+    .features .features_img .images img{
+        width: 35%;
+    }
+    .features .features_img .images p{
+        font-size: 20px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    /* features ends here */
+    /* slider start here */
+    .slider .swiper-slide  .swiper_text p{
+        font-family: 'bikoregular';
+        font-size: 15px;
+        font-weight: normal;
+        color: #676767;
+    }
+    .slider .swiper-slide  .swiper_text a{
+        font-family: 'bikobold';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .slider .swiper-pagination{
+        position: unset;
+    }
+    .swiper-pagination-bullet{
+        width: 20px;
+        height: 5px;
+        /* opacity: 1; */
+        border-radius: 0;
+        background-color: #0864B1;
+    }
+    /* slider ends here */
+
+    /* Testimonials_slider start here */
+    .Testimonials .swiper-slide{
+        padding: 0px;
+    }
+    .swiper-slide .Testimonials_info{
+        background-color: white;
+        /* padding: 26px; */
+    }
+    .swiper-slide .Testimonials_info p{
+        color: #676767;
+        font-family: 'bikoregular';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .swiper-slide .Testimonials_info .text{
+        color: #676767;
+        font-family: 'bikobold';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .Testimonials_slider{
+        background-color: #F5F5F5;
+    }
+    .swiper-slide .read{
+        text-align: end;
+        text-decoration: none;
+        color: #0864B1;
+    }
+    .swiper-slide .fa-solid{
+        color:#0864B1 ;
+        font-size: 15px;
+    }
+    .swiper-slide .row{
+        padding: 0px;
+    }
+    .swiper-button-next i{
+        color: #67676726;
+        font-size: 25px;
+    }
+    .swiper-button-prev i{
+        color: #67676726;
+        font-size: 25px
+    }
+    .swiper-slide .Testimonials_info .text{
+        color:#0864B1 ;
+    }
+    .Testimonials .swiper-button-next:after{
+        display: none;
+    }
+    .Testimonials .swiper-button-prev:after{
+        display: none;
+    }
+    /* newsletter start here */
+    .newsletter .update .investment .newsletter_info .info h2{
+        font-size: 30px;
+        font-family: 'bikobold';
+        font-weight: normal;
+        text-align: center;
+    }
+    .newsletter .update .investment .newsletter_info .info .text{
+        font-size: 16px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+    }
+    .newsletter .update .investment .newsletter_info .info .join_news p{
+        font-size: 15px;
+        width: 50%;
+        font-family: 'bikobold';
+        font-weight: normal;
+    }
+    /* newsletter ends here */
+
+    /* contact_us start here */
+    .form .form_info .details .form-label {
+        font-size: 15px;
+        font-family: 'bikobold';
+        font-weight: normal;
+    }
+    .form .form_info .details .form-control{
+        box-shadow: 2px 2px 6px #0864B133;
+        border-radius: 0;
+    }
+    .form .form_info .send_info .empty_fill p{
+        font-family: 'bikobold';
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .form .form_info .send_info .send_msg .btn{
+        font-family: 'bikobold';
+        font-weight: normal;
+        font-size: 15px;
+        border-radius: 0;
+        background-color: #0864B1;
+        color: white;
+    }
+    .form .form_info .send_info .empty_fill{
+        text-align: center;
+    }
+    .form .form_info .send_info .send_msg{
+        text-align: center;
+    }
+    /* contact_us ends here */
+
+    /* footer start here */
+    .footer {
+        position: relative;
+    }
+    .footer .footer_data .connection p{
+        font-size: 12px;
+    }
+    .footer .footer_data .bluetrading_logo .logo{
+        text-decoration: none;
+        font-family: 'bikobold';
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .footer .footer_data .contact_info p{
+        font-family: 'bikoregular';
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .footer .footer_data .footer_info h6{
+        font-family: 'bikobold';
+        font-size: 15px;
+        font-weight: normal;
+        position: absolute;
+        bottom: 10px;
+    }
+    
+    .footer .footer_data .connection h5{
+        font-family: 'bikobold';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection .text {
+        font-family: 'bikobold';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection p{
+        font-family: 'bikoregular';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection .icons a i{
+        padding: 5px;
+    }
+    /* footer ends here */
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    /* header start here */
+    .header .investment .information h1{
+        font-size: 50px;
+        font-family: 'bikoblack';
+        font-weight: normal;
+        padding-top: 15px;
+        padding-top: 85px;
+    }
+    .header .investment .information p{
+        font-size: 24px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+    }
+    .header .navbar .navigation-link .nav .nav-item .nav-link{
+        font-size: 25px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+    }
+    /* header ends here */
+    
+    /* about_us start here */
+    .heading h3{
+        font-family: 'bikoblack';
+        font-weight: normal;
+        font-size: 35px;
+        color: #0864B1;
+    }
+    .about_us .info_about p{
+        font-size: 23px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    .about_us .num_icon .icon .text-primary{
+        font-size: 50px;
+    }
+    .about_us .num_icon .icon p{
+        font-size: 25px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    .about_us .num_icon .icon::after{
+        display: none;
+    }
+    /* about_us section ends here */
+
+    /* features section start here */
+    .features .features_img .images{
+        padding-bottom: 15px;
+    }
+    .features .features_img .images img{
+        width: 35%;
+    }
+    .features .features_img .images p{
+        font-size: 20px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+        color: #676767;
+    }
+    /* features ends here */
+
+    /* slider start here */
+    .slider .swiper-slide  .swiper_text p{
+        font-family: 'bikoregular';
+        font-size: 17px;
+        font-weight: normal;
+        color: #676767;
+    }
+    .slider .swiper-slide  .swiper_text a{
+        font-family: 'bikobold';
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .slider .swiper-pagination{
+        position: unset;
+        margin-top: 5px;
+    }
+    /* slider ends here */
+
+    /* Testimonials_slider start here */
+    .Testimonials .swiper-slide{
+        padding: 0px 120px;
+    }
+    .swiper-slide .Testimonials_info p{
+        color: #676767;
+        font-family: 'bikoregular';
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .swiper-slide .Testimonials_info .text{
+        color: #676767;
+        font-family: 'bikobold';
+        font-size: 20px;
+        font-weight: normal;
+    }
+    /* newsletter start here */
+    .newsletter .update .investment .newsletter_info .info h2{
+        font-size: 35px;
+        font-family: 'bikobold';
+        font-weight: normal;
+        text-align: center;
+    }
+    .newsletter .update .investment .newsletter_info .info .text{
+        font-size: 22px;
+        font-family: 'bikoregular';
+        font-weight: normal;
+    }
+    .newsletter .update .investment .newsletter_info .info .join_news p{
+        font-size: 20px;
+        width: 50%;
+        font-family: 'bikobold';
+        font-weight: normal;
+    }
+    /* newsletter ends here */
+    
+    /* contact_us start here */
+    .form .form_info .details .form-label {
+        font-size: 15px;
+        font-family: 'bikobold';
+        font-weight: normal;
+    }
+    .form .form_info .details .form-control{
+        box-shadow: 2px 2px 6px #0864B133;
+        border-radius: 0;
+    }
+    .form .form_info .send_info .empty_fill p{
+        font-family: 'bikobold';
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .form .form_info .send_info .send_msg .btn{
+        font-family: 'bikobold';
+        font-weight: normal;
+        font-size: 15px;
+        border-radius: 0;
+        background-color: #0864B1;
+        color: white;
+    }
+    /* contact_us ends here */
+
+    /* footer start here */
+   
+    .footer .footer_data .bluetrading_logo .logo h3{
+        text-decoration: none;
+        font-family: 'bikobold';
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .footer .footer_data .contact_info p{
+        font-family: 'bikoregular';
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .footer .footer_data .footer_info h6{
+        font-family: 'bikobold';
+        font-size: 14px;
+        font-weight: normal;
+        
+    }
+    .footer .footer_data .connection h5{
+        font-family: 'bikobold';
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection .text {
+        font-family: 'bikobold';
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection p{
+        font-family: 'bikoregular';
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .footer .footer_data .connection .icons a i{
+        padding: 5px;
+    }
+
+}
