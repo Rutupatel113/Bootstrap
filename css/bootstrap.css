@@ -326,17 +326,19 @@
         height: 30px;
         width: 30px;
         background-color: black;
-        position: absolute;
+        display: grid;
+        place-items: center;
+        /* position: absolute; */
         right: 21px;
-        display: block;
-        justify-content: center;
-        align-items: center;
-        top: 36px;
+        /* display: block; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* top: 36px; */
     }
     .header .navbar .navigation-link .icon i{
         position: relative;
-        right: -8px;
-        top: 1px;
+        /* right: -8px; */
+        /* top: 1px; */
     }
     .header .nav{
         display: none;
