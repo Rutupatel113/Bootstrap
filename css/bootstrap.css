@@ -333,7 +333,7 @@
         /* display: block; */
         /* justify-content: center; */
         /* align-items: center; */
-        /* top: 36px; */
+        top: 20px;
     }
     .header .navbar .navigation-link .icon i{
         position: relative;
