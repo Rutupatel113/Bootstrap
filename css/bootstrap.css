@@ -325,7 +325,7 @@
     .header .navbar .navigation-link .icon{
         height: 30px;
         width: 30px;
-        background-color: black;
+        background-color: #0c093f;
         display: grid;
         place-items: center;
         /* position: absolute; */
@@ -353,9 +353,9 @@
     .nav{
         display: block;
         position: absolute;
-        right: 16px;
-        top: 75px;
-        background-color: black;
+        right: 36px;
+        top: 60px;
+        background-color: #0c093f;
     }
     .header .navbar .navbar-brand {
         font-family: 'bikobold';
